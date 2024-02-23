@@ -1,0 +1,21 @@
+[submodule "libOTe"]
+	path = libOTe
+	url = https://github.com/osu-crypto/libOTe.git
+[submodule "emp-tool"]
+	path = emp-tool
+	url = https://github.com/emp-toolkit/emp-tool.git
+[submodule "relic"]
+	path = relic
+	url = https://github.com/relic-toolkit/relic.git
+[submodule "relic-doc"]
+	path = relic-doc
+	url = https://github.com/relic-toolkit/relic-doc.git
+[submodule "wondershaper"]
+	path = wondershaper
+	url = https://github.com/magnific0/wondershaper
+[submodule "emp-sh2pc"]
+	path = emp-sh2pc
+	url = https://github.com/emp-toolkit/emp-sh2pc
+[submodule "emp-ot"]
+	path = emp-ot
+	url = https://github.com/emp-toolkit/emp-ot

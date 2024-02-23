@@ -1,0 +1,19 @@
+* For Party 1, create a text file with inputs, e.g., "file1". Each line represents one input.
+
+* For Party 2, create a text file with inputs, e.g., "file2". Each line represents one input. 
+
+CAVEAT: both parties have to have the same number of inputs, i.e., the same number of input lines in their files. If parties have a different number of inputs, we have to use padding. This is not a problem and easy to achieve, but not yet implemented. Please let me know whether this is a requirement for the demo.
+
+* Convert Party 1's input into the proper format with, e.g., "./dh-convertInput file1 converted1". Now the converted input resides in file "converted1".
+
+* Convert Party 2's input into the proper format with, e.g., "./dh-convertInput file2 converted2". Now the converted input resides in file "converted2".
+
+
+* Run two processes, one for the sender/Alice, one for the receiver/Bob
+
+1) ./dh-psi-disk NUMBEROFINPUTS converted1 1
+
+2) /dh-psi-disk NUMBEROFINPUTS converted2 2
+
+Replace NUMBEROFINPUTS with the (padded) number of inputs.
+
